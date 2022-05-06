@@ -1,0 +1,17 @@
+.btn {
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border:3px solid #f6f6f6; 
+    text-decoration: none;
+    transition: 0.5s;
+    background: #242424;
+    border-radius: 5rem;
+    font-weight: bold;
+    transition: .2s linear;
+    font-weight: bold;
+    color: #f6f6f6;
+}
+.btn:hover{
+    transform: scale(1.150);
+}
+

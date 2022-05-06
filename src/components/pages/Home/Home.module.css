@@ -1,0 +1,90 @@
+.home_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_container h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    color: #f6f6f6;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.home_container h1 .blob{
+    color: #f6f6f6;
+    padding: 0.2em 1em;
+    background-color: #C7C2E2;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+
+   
+    
+}
+
+.home_container h1 .AnimationTitle{
+    font-size: 3.5rem;
+    font-family: 'Roboto Mono', monospace;
+    
+    
+}
+
+.typerText{
+    font-family: 'Roboto Mono', monospace;
+    color: #f6f6f6;
+}
+
+.home_container p{
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
+
+.home_container img{
+  border-radius: 100%;
+    
+   
+}
+.blob{
+    font-size: 3.5rem ;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    overflow: hidden;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    background: #8f44fd
+    url("https://i.pinimg.com/564x/aa/2e/bc/aa2ebcbedbe935a4d6a8eb3eee91957b.jpg");
+    background-size: cover;
+    background-position: center;
+    animation: morph 3.75s linear infinite;
+}
+.btnHome{
+ margin-top: 40px;
+ z-index: 10;
+ transition: .2s linear;
+ font-weight: bold;
+ 
+ 
+}
+.btnHome:hover{
+    transform: scale(1.150);
+}
+
+
+
+@keyframes morph  {
+0%, 100%{
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+}
+
+33% {
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+}
+
+66% {
+    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+}
+}
