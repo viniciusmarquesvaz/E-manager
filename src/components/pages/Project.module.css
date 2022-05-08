@@ -6,16 +6,21 @@
 .project_details h2,
 .project_details p{
     margin-bottom: 0.5em;
+    color: #f6f6f6;
 }
 
 .project_details h1{
-    background-color: #222;
-    color: #FFbb33;
+    background: linear-gradient(90deg, #5F296D 1.94%, #1b1b1b 102.78%);
+    color: #f6f6f6;
+    display:flex;
+    align-items: center;
     padding: 0.4em;
+    border-radius: 10px;
 }
 
 .project_details span{
     font-weight: bold;
+    color: #f6f6f6;
 }
 
 .details_container,
@@ -26,10 +31,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    color: #f6f6f6;
 }
 
 .btn {
-    background-color: #222;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
     color: #fff;
     padding: 0.5em 1em;
     text-decoration: none;
@@ -37,11 +46,27 @@
     cursor: pointer;
     max-height: 40px;
     border: none;
+
 }
 
 .btn:hover{
-    color: #FFbb33;
+    color: #8739F9;
 }
+/* .btnEdit{
+    background-color: #242424;
+    display:flex;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+    margin-right: -94.5%;
+}
+.btnEdit:hover{
+    color: #8739F9;
+} */
 
 .project_info {
     width: 100%;

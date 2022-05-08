@@ -16,10 +16,13 @@
 .social_list li{
     margin: 0 1em;
     color: #f6f6f6;
+    transition: .2s linear;
+
 }
 
 .social_list li:hover{
-    color: white;
+    color: #8f44fd;
+    
 }
 
 .social_list svg{
@@ -29,6 +32,7 @@
 
 .copy_right{
     margin-top: 2em;
+    color:#C7C2E2
     
 }
 

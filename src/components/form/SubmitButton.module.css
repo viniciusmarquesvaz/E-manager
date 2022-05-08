@@ -1,16 +1,20 @@
 .btn {
-    background-color: #222;
-    color: #fff;
-    padding: 0.7em 1.2em;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    border:3px solid #f6f6f6; 
     text-decoration: none;
-    transition: .5s;
-    cursor: pointer;
-    border: none;
-    text-align: center;
+    transition: 0.5s;
+    background: #242424;
+    border-radius: 5rem;
+    font-weight: bold;
+    transition: .2s linear;
+    font-weight: bold;
+    color: #f6f6f6;
 }
 
 .btn:hover {
-    color:#ffbb33
+    color:linear-gradient(90deg, #5F296D 1.94%, #33296D 102.78%);
+    border-color: #8739F9;
 }
 
 .container_btn{

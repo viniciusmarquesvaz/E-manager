@@ -62,15 +62,18 @@
     animation: morph 3.75s linear infinite;
 }
 .btnHome{
- margin-top: 40px;
+ margin-top: 2.5rem;
  z-index: 10;
  transition: .2s linear;
  font-weight: bold;
+
  
  
 }
 .btnHome:hover{
+    
     transform: scale(1.150);
+   ;
 }
 
 

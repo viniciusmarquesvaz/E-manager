@@ -6,4 +6,10 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
+    color:#f6f6f6;
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
 }
+.title{
+    font-family: 'Roboto Mono', monospace;
+} 
