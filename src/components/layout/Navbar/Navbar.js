@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Container from "../Container";
+import Container from "../Container/Container";
 
 import styles from "./Navbar.module.css";
 
@@ -23,7 +23,7 @@ function Navbar() {
             <Link to="/projects">Projetos</Link>
           </li>
           <li className={styles.item}>
-            <Link to="/company">DashBoard</Link>
+            <Link to="/dashboard">DashBoard</Link>
           </li>
           <li className={styles.item}>
             <Link to="/contact">LoreImpsum</Link>

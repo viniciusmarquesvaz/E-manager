@@ -1,17 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+//Libs
+
 //Pages
 import Dashboard from "./components/pages/Dashboard";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home/Home";
-import NewProject from "./components/pages/NewProject";
+import NewProject from "./components/pages/NewProject/NewProject";
 
 //Layout
-import Container from "./components/layout/Container";
+import Container from "./components/layout/Container/Container";
 import Navbar from "./components/layout/Navbar/Navbar";
 import Footer from "./components/layout/Footer/Footer";
-import Projects from "./components/pages/Projects";
-import Project from "./components/pages/Project";
+import Projects from "./components/pages/Projects/Projects";
+import Project from "./components/pages/Project/Project";
 
 function App() {
   return (
