@@ -33,6 +33,7 @@
 }
 
 .typerText{
+    margin-top: 20px;
     font-family: 'Roboto Mono', monospace;
     color: #f6f6f6;
 }
@@ -48,46 +49,52 @@
    
 }
 .blob{
+    z-index: 20;
     font-size: 3.5rem ;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
     overflow: hidden;
     width: 8rem;
     height: 8rem;
-    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-    background: #8f44fd
-    url("https://i.pinimg.com/564x/aa/2e/bc/aa2ebcbedbe935a4d6a8eb3eee91957b.jpg");
+    border-radius: 0% 20% 72% 28% / 42% 42% 10% 90%;
+    background: #34526e
+    url("https://i.pinimg.com/564x/a8/ea/b5/a8eab5db5f55c1729ba05c6c7e827c3a.jpg");
     background-size: cover;
     background-position: center;
     animation: morph 3.75s linear infinite;
 }
 .btnHome{
- margin-top: 2.5rem;
- z-index: 10;
- transition: .2s linear;
- font-weight: bold;
+    z-index: 10;
+    margin-top: 40px;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
 
  
  
 }
-.btnHome:hover{
-    
-    transform: scale(1.150);
-   ;
-}
 
 
 
+/* 
 @keyframes morph  {
 0%, 100%{
     border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
 }
 
 33% {
-    border-radius: 72% 28% 48% 48% / 28% 28% 72% 72%;
+    border-radius: 72% 28% 48% 48% / 28% 28% 72% 20%;
 }
 
 66% {
-    border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    border-radius: 100% 56% 56% 20% / 100% 100% 56% 56%;
 }
-}
+} */

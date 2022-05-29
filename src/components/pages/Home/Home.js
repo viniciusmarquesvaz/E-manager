@@ -1,5 +1,5 @@
 import styles from "./Home.module.css";
-import savings from "../../../img/Data extraction black.gif";
+import savings from "../../../img/Data extraction.gif";
 import LinkButton from "../../layout/LinkButton/LinkButton";
 import Typist from "react-typist";
 import { useState } from "react";

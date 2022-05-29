@@ -10,7 +10,7 @@
 }
 
 .project_details h1{
-    background: linear-gradient(90deg, #5F296D 1.94%, #1b1b1b 102.78%);
+    background: linear-gradient(90deg, #34526e 1.94%, #1b1b1b 102.78%);
     color: #f6f6f6;
     display:flex;
     align-items: center;
@@ -50,7 +50,7 @@
 }
 
 .btn:hover{
-    color: #8739F9;
+    color: #34526e;
 }
 /* .btnEdit{
     background-color: #242424;

@@ -1,19 +1,19 @@
 .btn {
-    font-weight: 500;
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    color: #fff;
     padding: 0.5em 1em;
-    border:3px solid #f6f6f6; 
     text-decoration: none;
     transition: 0.5s;
-    background: #242424;
-    border-radius: 5rem;
-    font-weight: bold;
-    transition: .2s linear;
-    font-weight: bold;
-    color: #f6f6f6;
+    cursor: pointer;
+    max-height: 40px;
+
 }
 .btn:hover{
-    transform: scale(1.150);
-    border-color: #8739F9;
+    /* transform: scale(1.150); */
+    color: #79a6b4; 
   
 }
 

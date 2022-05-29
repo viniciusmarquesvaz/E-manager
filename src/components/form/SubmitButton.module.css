@@ -13,8 +13,8 @@
 }
 
 .btn:hover {
-    color:linear-gradient(90deg, #5F296D 1.94%, #33296D 102.78%);
-    border-color: #8739F9;
+    color:linear-gradient(90deg, #5F296D 1.94%, #34526e 102.78%);
+    border-color: #34526e;
 }
 
 .container_btn{

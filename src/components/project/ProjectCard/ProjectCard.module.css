@@ -6,11 +6,11 @@
     margin: 0.5%;
     background-color: #1b1b1b;
     border-radius: 10px;
-    box-shadow:10px 10px 20px #140916, -10px -10px 20px #18111a
+    box-shadow:10px 10px 20px #091016, -10px -10px 20px #090f16
 }
 
 .project_card h4{
-    background: linear-gradient(90deg, #5F296D 1.94%, #1b1b1b 102.78%);
+    background: linear-gradient(90deg, #34526e 1.94%, #1b1b1b 102.78%);
     color: #f6f6f6;
     padding: 0.4em;
     margin-bottom: 1.3em;
@@ -80,6 +80,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    border-radius: 10px;
 }
 
 .project_card_actions svg{
@@ -89,8 +90,8 @@
 .project_card_actions a:hover,
 .project_card_actions button:hover{
     background-color: #222;
-    color: #8739f9;
-    border-radius: 10px;
+    color: #5383af ;
+   
     
 }
 
