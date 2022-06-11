@@ -17,7 +17,7 @@ function Footer() {
         </li>
       </ul>
       <p className={styles.copy_right}>
-        <span>Enline - Terms and Conditions</span> &copy; 2022
+        <span>E-project - Terms and Conditions</span> &copy; 2022
       </p>
     </footer>
   );

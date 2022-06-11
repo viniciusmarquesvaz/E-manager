@@ -11,7 +11,7 @@ function Navbar() {
         <div className={styles.logoContainer}>
           <span className={styles.glimmer}>
             <a className={styles.logo} href="/">
-              Enline
+              E-project
             </a>
           </span>
         </div>
@@ -24,9 +24,6 @@ function Navbar() {
           </li>
           <li className={styles.item}>
             <Link to="/dashboard">DashBoard</Link>
-          </li>
-          <li className={styles.item}>
-            <Link to="/contact">LoreImpsum</Link>
           </li>
         </ul>
       </Container>
