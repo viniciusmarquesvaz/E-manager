@@ -3,10 +3,10 @@ import { useNavigate } from "react-router-dom";
 import ProjectForm from "../../project/ProjectForm/ProjectForm";
 import styles from "./NewProject.module.css";
 
-function NewProject() {
+const NewProject = () => {
   const navigate = useNavigate();
 
-  function createPost(project) {
+  const createPost = (project) => {
     project.cost = 0;
     project.services = [];
 
@@ -26,7 +26,7 @@ function NewProject() {
         });
       })
       .catch((err) => console.log(err));
-  }
+  };
 
   return (
     <div className={styles.newproject_container}>
@@ -35,6 +35,6 @@ function NewProject() {
       <ProjectForm handleSubmit={createPost} btnText="Criar Projeto" />
     </div>
   );
-}
+};
 
 export default NewProject;

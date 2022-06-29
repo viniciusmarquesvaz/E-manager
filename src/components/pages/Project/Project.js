@@ -11,7 +11,7 @@ import ServiceForm from "../../service/ServiceForm";
 import ServiceCard from "../../service/ServiceCard";
 import { FaWindowClose } from "react-icons/fa";
 
-function Project() {
+const Project = () => {
   const { id } = useParams();
 
   const [project, setProject] = useState([]);
@@ -38,7 +38,7 @@ function Project() {
     }, 500);
   }, []);
 
-  function editPost(project) {
+  const editPost = (project) => {
     setMessage("");
 
     //budget validation
@@ -64,9 +64,9 @@ function Project() {
         setType("success");
       })
       .catch((err) => console.log(err));
-  }
+  };
 
-  function createService(project) {
+  const createService = (project) => {
     setMessage("");
 
     // last service
@@ -102,9 +102,9 @@ function Project() {
         setShowServiceForm(false);
       })
       .catch((err) => console.log(err));
-  }
+  };
 
-  function removeService(id, cost) {
+  const removeService = (id, cost) => {
     const servicesUpdated = project.services.filter(
       (service) => service.id !== id
     );
@@ -129,15 +129,15 @@ function Project() {
         setType("success");
       })
       .catch((err) => console.log(err));
-  }
+  };
 
-  function toggleProjectForm() {
+  const toggleProjectForm = () => {
     setShowProjectForm(!showProjectForm);
-  }
+  };
 
-  function toggleServiceForm() {
+  const toggleServiceForm = () => {
     setShowServiceForm(!showServiceForm);
-  }
+  };
 
   return (
     <>
@@ -213,6 +213,6 @@ function Project() {
       )}
     </>
   );
-}
+};
 
 export default Project;

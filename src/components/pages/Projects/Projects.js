@@ -10,7 +10,7 @@ import ProjectCard from "../../project/ProjectCard/ProjectCard";
 
 import styles from "./Projects.module.css";
 
-function Projects() {
+const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [removeLoading, setRemoveLoading] = useState(false);
   const [projectMessage, setProjectMessage] = useState("");
@@ -40,7 +40,7 @@ function Projects() {
     }, 1000);
   }, []);
 
-  function removeProject(id) {
+  const removeProject = (id) => {
     fetch(`http://localhost:5000/projects/${id}`, {
       method: "DELETE",
       headers: {
@@ -53,7 +53,7 @@ function Projects() {
         setProjectMessage("Projeto removido com Sucesso!");
       })
       .catch((err) => console.log(err));
-  }
+  };
 
   return (
     <div className={styles.project_container}>
@@ -82,6 +82,6 @@ function Projects() {
       </Container>
     </div>
   );
-}
+};
 
 export default Projects;

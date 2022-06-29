@@ -4,7 +4,7 @@ import LinkButton from "../../layout/LinkButton/LinkButton";
 import Typist from "react-typist";
 import { useState } from "react";
 
-function Home() {
+const Home = () => {
   const texts = [
     "Start managing your projects right now!",
     "easy and practical",
@@ -42,6 +42,6 @@ function Home() {
       <img src={savings} alt="Costs"></img>
     </section>
   );
-}
+};
 
 export default Home;

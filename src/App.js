@@ -15,7 +15,7 @@ import Footer from "./components/layout/Footer/Footer";
 import Projects from "./components/pages/Projects/Projects";
 import Project from "./components/pages/Project/Project";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Navbar />
@@ -32,6 +32,6 @@ function App() {
       <Footer />
     </Router>
   );
-}
+};
 
 export default App;

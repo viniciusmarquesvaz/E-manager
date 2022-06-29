@@ -4,7 +4,7 @@ import Container from "../Container/Container";
 
 import styles from "./Navbar.module.css";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Container>
@@ -29,6 +29,6 @@ function Navbar() {
       </Container>
     </nav>
   );
-}
+};
 
 export default Navbar;

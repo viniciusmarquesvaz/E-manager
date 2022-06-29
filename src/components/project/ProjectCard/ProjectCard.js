@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.css";
 import { BsPencil, BsFillTrashFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-function ProjetcCard({ id, name, budget, category, handleRemove }) {
+const ProjetcCard = ({ id, name, budget, category, handleRemove }) => {
   const remove = (e) => {
     e.preventDefault();
     handleRemove(id);
@@ -30,6 +30,6 @@ function ProjetcCard({ id, name, budget, category, handleRemove }) {
       </div>
     </div>
   );
-}
+};
 
 export default ProjetcCard;
